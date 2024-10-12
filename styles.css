@@ -90,6 +90,9 @@
     flex: 1;
   }
 
-  .footer-one {
-    flex: 2;
+  .footer-one,
+  .footer-three {
+    background-color: #5995DA;
+    flex: initial; /* If we don't add initial property, this element will inherit the value of flex:1 from its parent flex container. Effectively, ignoring our width too. */
+    width: 300px;
   }
