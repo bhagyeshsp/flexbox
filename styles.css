@@ -96,3 +96,7 @@
     flex: initial; /* If we don't add initial property, this element will inherit the value of flex:1 from its parent flex container. Effectively, ignoring our width too. */
     width: 300px;
   }
+
+  .signup {
+    margin-left: auto;
+  }
